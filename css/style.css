@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: #243462;
+    user-select: none;
+}
+
+h1{
+    color:white;
+    font-size: 5vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    height: 6.25em;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 3vw;
+    text-transform: uppercase;
+    text-decoration: brown;
+    background-color: #e2c389;
+    border-radius: 1.9375em;
+    box-shadow: 0 0 0.625em 0.5625em #00000050;
+}
+
+.information{
+    max-width: 85%;
+    margin: 0 auto;
+}

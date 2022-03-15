@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+h1, h2, #results, #btn-div {
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+#mark-deets, #john-deets {
+    display: flex;
+    justify-content: space-evenly;
+
+    input {
+        width: 7ch;
+    }
+
+    #bills {
+        width: 15ch;
+    }
+}
+
+#btn-div {
+    button {
+        font-weight: bold;
+        padding: 0.5em;
+    }
+}
