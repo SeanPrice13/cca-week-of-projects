@@ -1,4 +1,4 @@
-# ccaweekofprojects
+# cca-week-of-projects
 Caribbean Coding Academy Week of Javascript Projects
 
 # Links
