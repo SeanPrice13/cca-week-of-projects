@@ -16,5 +16,8 @@ document.getElementById('calc-btn').addEventListener('click', calcBMI = () => {
         },
     ];
     const [{'Mark Miller': {mBMI}}, {'John Smith': {jBMI}}] = person;
-    document.getElementById('results').firstElementChild.textContent = mBMI > jBMI ? `Mark Miller's BMI (${mBMI}) is higher than John Smith's BMI (${jBMI})!` : `John Smith's BMI (${jBMI}) is higher than Mark Miller's BMI (${mBMI})!`;
+    document.getElementById("results").firstElementChild.textContent =
+      parseFloat(mBMI) > parseFloat(jBMI)
+        ? `Mark Miller's BMI (${mBMI}) is higher than John Smith's BMI (${jBMI})!`
+        : `John Smith's BMI (${jBMI}) is higher than Mark Miller's BMI (${mBMI})!`;
 });
